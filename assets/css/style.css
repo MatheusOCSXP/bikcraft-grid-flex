@@ -1,0 +1,93 @@
+/* 
+container
+footer */
+
+body {
+  margin: 0px;
+  background: #f7f7f7;
+  font-family: Arial;
+}
+
+p {
+  font-size: 20px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 2;
+  gap: 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.header img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+  place-content: center;
+}
+
+.navitem {
+  background: white;
+  border-radius: 3px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+}
+
+.nimbus {
+  background: white;
+  align-self: start;
+    padding: 20px;
+}
+
+.nimbus a {
+  background: red;
+  border-radius: 3px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  }
+
+.container img {
+  grid-column: 2;
+  grid-row: 1;
+  max-width: 100%;
+}
+
+#vantagens {
+  font-size: 64px;
+  background-color: red;
+  }
+
+.descricao {
+  background: white;
+  padding: 20px;
+}
+
+.beneficio {
+}
+
+.beneficio span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer {
+  background: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+}
